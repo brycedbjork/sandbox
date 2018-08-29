@@ -152,7 +152,7 @@ class Home extends Component {
 				<FAQs/>
 
 				<div className="footer">
-					<Button emoji="🤟" onClick={() => {
+					<Button emoji="✌️" onClick={() => {
 						window.open("https://docs.google.com/forms/d/e/1FAIpQLSfVrMRGVdClNqbr5Wz-zCvTMeUY8DbWwcUX1W_6lQ4uFK3zgg/viewform?usp=sf_link")
 					}}>apply</Button>
 					<div className="made">made with 🏖 at Yale</div>
