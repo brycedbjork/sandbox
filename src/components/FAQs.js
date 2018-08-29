@@ -31,7 +31,6 @@ class FAQs extends Component {
 						}
 						.faqs-question {
 							font-family: ${fonts.primary};
-							text-align: center;
 							color: ${colors.white};
 							font-weight: 500;
 							font-size: 24px;

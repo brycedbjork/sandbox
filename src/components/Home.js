@@ -21,8 +21,8 @@ class Home extends Component {
 				<Page id="welcome" background={Glassy} justifyContent="center" alignItems="center">
 					<div className="centered-content">
 						<h1 className="negative-title">
-							accelerating student-created,<br/>
-							technical ventures at Yale
+							incubating technical entrepreneurs<br/>
+							and ventures at Yale
 						</h1>
 						<Button emoji="🤟" onClick={() => {
 							window.open("https://docs.google.com/forms/d/e/1FAIpQLSfVrMRGVdClNqbr5Wz-zCvTMeUY8DbWwcUX1W_6lQ4uFK3zgg/viewform?usp=sf_link")
@@ -105,33 +105,45 @@ class Home extends Component {
 					<div className="card-container">
 
 						<Card
+							image={require("../lib/images/sandbox-logo.png")}
+							title="Sandbox"
+							people={["@bryce", "@lea"]}
+							description="Building sandbox within sandbox... Meta, right?"/>
+
+						<Card
 							image={require("../lib/images/has-logo.png")}
 							title="Hire a Student"
+							people={["@bryce"]}
 							description="Connecting students with community members for local task completion"
 							url="https://hireastudent.org"/>
 
 						<Card
 							image={require("../lib/images/splash-logo.png")}
 							title="Splash"
+							people={["@bryce", "@lukas"]}
 							description="Building blockchain financial services for emerging markets and privacy-centric consumers"
 							url="https://splashwallet.io"/>
 
 						<Card
 							image={require("../lib/images/wecrawl-logo.png")}
 							title="WeCrawl"
+							people={["@bryce"]}
 							description="Find, create, and share (bar)crawls through your city"
 							url="https://wecrawl.co"/>
 
 						<Card
 							title="Sesh"
+							people={["@alexi"]}
 							description="Create events, meet up with friends, and sesh"/>
 
 						<Card
 							title="NextStep"
+							people={["@lea"]}
 							description="Connecting students and experienced adults for mentorship and job shadowing"/>
 
 						<Card
 							title="Your big idea! 🚀"
+							people={["@you"]}
 							description="Learn these frameworks and work with sandbox to develop something awesome"/>
 
 					</div>
@@ -140,15 +152,17 @@ class Home extends Component {
 				<FAQs/>
 
 				<div className="footer">
-					<div className="footer-links-left">
-						{/*<a className="legal" href="/terms">Terms of Service</a>
-							<a className="legal" href="/privacy">Privacy Policy</a>
-						*/}
-					</div>
-					<div className="footer-links-right">
-						<div className="made">made with &#9829; at Yale</div>
-						<a className="support" href="mailto:bryce.bjork@yale.edu,lea.sparkman@yale.edu">get in touch</a>
-					</div>
+					<Button emoji="🤟" onClick={() => {
+						window.open("https://docs.google.com/forms/d/e/1FAIpQLSfVrMRGVdClNqbr5Wz-zCvTMeUY8DbWwcUX1W_6lQ4uFK3zgg/viewform?usp=sf_link")
+					}}>apply</Button>
+					<div className="made">made with 🏖 at Yale</div>
+					{/*<div className="footer-links-left">
+											<a className="legal" href="/terms">Terms of Service</a>
+												<a className="legal" href="/privacy">Privacy Policy</a>
+											
+										</div>
+										<div className="footer-links-right">
+											</div>*/}
 				</div>
 
 				<style>
@@ -187,9 +201,11 @@ class Home extends Component {
 						}
 						.footer {
 							width: 100%;
+							padding-bottom: 40px;
 							display: flex;
-							flex-direction: row;
+							flex-direction: column;
 							justify-content: space-between;
+							height: 100px;
 							align-items: center;
 							background-color: ${colors.primaryDark};
 						}

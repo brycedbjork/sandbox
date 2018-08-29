@@ -20,6 +20,8 @@ class Card extends Component {
 
 				<div className="card-description">{this.props.description}</div>
 
+				{this.props.people && <div className="card-people">{this.props.people.join(", ")}</div>}
+
 				<style>
 					{`
 						.card {
@@ -61,6 +63,12 @@ class Card extends Component {
 							font-weight: 500;
 							font-family: ${fonts.primary};
 							color: ${colors.gray};
+						}
+						.card-people {
+							font-size: 18px;
+							font-weight: 500;
+							font-family: ${fonts.primary};
+							color: ${colors.secondary};
 						}
 					`}
 				</style>

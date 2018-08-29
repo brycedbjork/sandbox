@@ -25,6 +25,11 @@ class Page extends Component {
 							background-size: cover;
 							position: relative;
 						}
+						@media only screen and (max-width: 600px) {
+							#page-${this.props.id} {
+								min-height: 600px;
+							}
+						}
 					`}
 				</style>
 
