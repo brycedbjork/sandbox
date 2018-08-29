@@ -118,11 +118,15 @@ class Home extends Component {
 
 						<Card
 							title="Sesh"
-							description="Create events, meet up with friends"/>
+							description="Create events, meet up with friends, and sesh"/>
 
 						<Card
 							title="NextStep"
 							description="Connecting students and experienced adults for mentorship and job shadowing"/>
+
+						<Card
+							title="Your big idea! 🚀"
+							description="Learn these frameworks and work with sandbox to develop something awesome"/>
 
 					</div>
 				</Page>
