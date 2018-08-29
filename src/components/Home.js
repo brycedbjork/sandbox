@@ -22,7 +22,7 @@ class Home extends Component {
 					<div className="centered-content">
 						<h1 className="negative-title">
 							accelerating student-created,<br/>
-							technical products at Yale
+							technical ventures at Yale
 						</h1>
 						<Button emoji="🤟" onClick={() => {
 							window.open("https://docs.google.com/forms/d/e/1FAIpQLSfVrMRGVdClNqbr5Wz-zCvTMeUY8DbWwcUX1W_6lQ4uFK3zgg/viewform?usp=sf_link")
@@ -35,6 +35,12 @@ class Home extends Component {
 					<Title emoji="📖">we{"'"}re learning</Title>
 
 					<div className="card-container">
+
+						<Card
+							image={require("../lib/images/slack-logo.png")}
+							title="Slack"
+							description="Team messaging that makes communication (and logging) a breeze"
+							url="https://slack.com"/>
 
 						<Card
 							image={require("../lib/images/github-logo.png")}
