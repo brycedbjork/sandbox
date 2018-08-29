@@ -12,7 +12,7 @@ class TopBar extends Component {
 				<style>
 					{`
 						.logo {
-							height: 26px;
+							height: 40px;
 							margin-left: 10px;
 							width: auto;
 						}

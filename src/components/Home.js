@@ -160,8 +160,7 @@ class Home extends Component {
 											<a className="legal" href="/terms">Terms of Service</a>
 												<a className="legal" href="/privacy">Privacy Policy</a>
 											
-										</div>
-										<div className="footer-links-right">
+										</div> <div className="footer-links-right">
 											</div>*/}
 				</div>
 
