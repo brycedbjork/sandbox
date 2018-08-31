@@ -107,7 +107,7 @@ class Home extends Component {
 						<Card
 							image={require("../lib/images/sandbox-logo.png")}
 							title="Sandbox"
-							people={["@bryce", "@lea"]}
+							people={["@bryce", "@lea", "@alexi"]}
 							description="Building sandbox within sandbox... Meta, right?"/>
 
 						<Card
@@ -132,7 +132,8 @@ class Home extends Component {
 							url="https://wecrawl.co"/>
 
 						<Card
-							title="Sesh"
+							image={require("../lib/images/sesh-logo.png")}
+							title="sesh"
 							people={["@alexi"]}
 							description="Create events, meet up with friends, and sesh"/>
 
