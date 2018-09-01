@@ -15,6 +15,9 @@ class FAQs extends Component {
 				<br/><br/>
 				<h3 className="faqs-question">What is the time commitment?</h3>
 				You get as much as you put into this club, and we think you'll get the most out of the club with a 5-10 hours / week commitment. At minimum, you should expect to spend 3 hours / week.
+				<br/><br/>
+				<h3 className="faqs-question">Who owns the IP (intellectual property) for apps built within sandbox?</h3>
+				Sandbox does not own any IP for apps developed by club members. Each club member owns his or her creations wholly. If you want to work in a team, then ownership of the product is up to its creators.
 
 				<style>
 					{`
