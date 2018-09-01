@@ -1,6 +1,9 @@
 export const colors = {
 	primary: "#155299",
 	primaryDark: "#072063",
+	primaryButton: "#456EDA",
+	primaryButtonHover: "#4C76E3",
+	primaryButtonDisabled: "#717A95",
 	secondary: "#B63D74",
 	whiteHover: "#FFF5F9", 
 	white: "#FFFFFF",

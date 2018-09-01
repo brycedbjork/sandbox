@@ -7,6 +7,7 @@ import Separator from "./Separator"
 import Button from "./Button"
 import FAQs from "./FAQs"
 import Card from "./Card"
+import EmailEntry from "./EmailEntry"
 import Subtitle from "./Subtitle"
 import {fonts, colors} from "../lib/styles"
 import Glassy from "../lib/images/glassy.png"
@@ -202,6 +203,7 @@ class Home extends Component {
 						.footer {
 							width: 100%;
 							padding-bottom: 40px;
+							padding-top: 40px;
 							display: flex;
 							flex-direction: column;
 							justify-content: space-between;

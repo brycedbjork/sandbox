@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import EmailEntry from "./EmailEntry"
 import {fonts, colors} from "../lib/styles"
 
 class FAQs extends Component {
@@ -14,6 +15,7 @@ class FAQs extends Component {
 				<br/><br/>
 				<h3 className="faqs-question">What is the time commitment?</h3>
 				You get as much as you put into this club, and we think you'll get the most out of the club with a 5-10 hours / week commitment. At minimum, you should expect to spend 3 hours / week.
+				
 
 				<style>
 					{`
@@ -34,6 +36,12 @@ class FAQs extends Component {
 							color: ${colors.white};
 							font-weight: 500;
 							font-size: 24px;
+						}
+						.row-question {
+							display: flex;
+							flex-direction: row;
+							justify-content: flex-start;
+							align-items: center;
 						}
 					`}
 				</style>
