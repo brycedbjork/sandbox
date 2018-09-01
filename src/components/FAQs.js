@@ -15,7 +15,6 @@ class FAQs extends Component {
 				<br/><br/>
 				<h3 className="faqs-question">What is the time commitment?</h3>
 				You get as much as you put into this club, and we think you'll get the most out of the club with a 5-10 hours / week commitment. At minimum, you should expect to spend 3 hours / week.
-				
 
 				<style>
 					{`
