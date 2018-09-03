@@ -9,12 +9,20 @@ class TopBar extends Component {
 						
 				<img src={require("../lib/images/logo.png")} className="logo"/>
 
+				<img src={require("../lib/images/github-logo-blue.png")} className="github" onClick={() => window.open("https://github.com/sandbox-co")}/>
+
 				<style>
 					{`
 						.logo {
 							height: 40px;
 							margin-left: 10px;
 							width: auto;
+						}
+						.github {
+							height: 30px;
+							margin-right: 30px;
+							width: auto;
+							cursor: pointer;
 						}
 						.header {
 							height: 40px;
