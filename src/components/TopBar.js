@@ -8,8 +8,11 @@ class TopBar extends Component {
 			<div className={`header`}>
 						
 				<img src={require("../lib/images/logo.png")} className="logo"/>
-
-				<img src={require("../lib/images/github-logo-blue.png")} className="github" onClick={() => window.open("https://github.com/sandbox-co")}/>
+	
+				<div className='linkContainer'>
+					<img src={require("../lib/images/medium-logo.png")} className="link" onClick={() => window.open("https://medium.com/yale-sandbox")}/>
+					<img src={require("../lib/images/github-logo-blue.png")} className="link" onClick={() => window.open("https://github.com/sandbox-co")}/>
+				</div>
 
 				<style>
 					{`
@@ -18,11 +21,21 @@ class TopBar extends Component {
 							margin-left: 10px;
 							width: auto;
 						}
-						.github {
+						.link {
 							height: 30px;
-							margin-right: 30px;
+							margin-left: 20px;
 							width: auto;
-							cursor: pointer;
+						}
+						.link:hover {
+							cursor: default;
+							transform: scale(1.05);
+						}
+						.linkContainer {
+							align-self: flex-end;
+							display: flex;
+							margin-right: 35px;
+							flex-direction: row;
+							padding-bottom: 5px;
 						}
 						.header {
 							height: 40px;
