@@ -23,9 +23,12 @@ class TopBar extends Component {
 						}
 						.link {
 							height: 30px;
-							cursor: pointer;
 							margin-left: 20px;
 							width: auto;
+						}
+						.link:hover {
+							cursor: default;
+							transform: scale(1.05);
 						}
 						.linkContainer {
 							align-self: flex-end;
