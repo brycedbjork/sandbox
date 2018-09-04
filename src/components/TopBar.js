@@ -9,7 +9,7 @@ class TopBar extends Component {
 						
 				<img src={require("../lib/images/logo.png")} className="logo"/>
 	
-				<div className='buttonContainer'>
+				<div className='linkContainer'>
 					<img src={require("../lib/images/medium-logo.png")} className="link" onClick={() => window.open("https://medium.com/yale-sandbox")}/>
 					<img src={require("../lib/images/github-logo-blue.png")} className="link" onClick={() => window.open("https://github.com/sandbox-co")}/>
 				</div>
@@ -27,7 +27,7 @@ class TopBar extends Component {
 							margin-left: 20px;
 							width: auto;
 						}
-						.buttonContainer {
+						.linkContainer {
 							align-self: flex-end;
 							display: flex;
 							margin-right: 35px;
