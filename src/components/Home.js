@@ -108,7 +108,8 @@ class Home extends Component {
 							image={require("../lib/images/sandbox-logo.png")}
 							title="Sandbox"
 							people={["@bryce", "@lea", "@alexi"]}
-							description="Building sandbox within sandbox... Meta, right?"/>
+							description="Building sandbox within sandbox... Meta, right?"
+							url="https://github.com/sandbox-co"/>
 
 						<Card
 							image={require("../lib/images/has-logo.png")}
