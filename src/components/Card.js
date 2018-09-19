@@ -12,7 +12,7 @@ class Card extends Component {
 		}
 
 		return (
-			<ScrollAnimation animateIn="fadeIn" duration={1} animateOnce={true}>
+			<ScrollAnimation animateIn="fadeIn" animateOnce={true}>
 				<div className="card" onClick={onClick}>
 
 					<div className="card-row">
