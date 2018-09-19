@@ -9,10 +9,12 @@
     "firebase": "^5.2.0",
     "react": "^16.3.1",
     "react-animate-on-scroll": "^2.1.5",
+    "react-animations": "^1.0.0",
     "react-bodymovin": "^1.1.2",
     "react-dom": "^16.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^1.1.4"
+    "react-scripts": "^1.1.4",
+    "styled-components": "^3.4.9"
   },
   "scripts": {
     "start": "react-scripts start",

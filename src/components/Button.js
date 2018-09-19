@@ -1,5 +1,7 @@
 import React, {Component} from "react"
 import {fonts, colors} from "../lib/styles"
+import { zoomIn } from 'react-animations'
+import styled, {keyframes} from "styled-components"
 
 class Button extends Component {
 
@@ -26,6 +28,7 @@ class Button extends Component {
 							font-family: ${fonts.primary};
 							border-radius: 5px;
 							transition: all 150ms cubic-bezier(0.21, 0.94, 0.64, 0.99);
+							animation: 1s ${keyframes`${zoomIn}`};
 						}
 						.button:hover {
 							transform: scale(1.03);
